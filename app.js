@@ -6,7 +6,7 @@ console.log('Welcome! ');
 
 var numbers = [];
 
-var input =prompt('Would you like to (d)evide, (m)ultiply, (a)dd, (s)ubstract? or (q)uit  ');
+var input =prompt('Would you like to (d)ivide, (m)ultiply, (a)dd, (s)ubstract? or (q)uit  ');
 if (input !== 'q'){
 var number1 = prompt('What number would you like to first input? ');
 number1 = parseFloat(number1);
